@@ -1,1 +1,1 @@
-"# HelpUkraine" 
+# HelpUkraine
