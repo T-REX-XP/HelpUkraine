@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b42b353e-ac95-ec11-b3fe-6045bd8c19f9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{39748ef5-e5bb-4a7c-bf7a-a39bed7db1af}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{be823e01-ebab-442b-ac3f-be95213bf0b4}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{712026a9-432b-4d3d-9c84-ed7420ff0570}" locklevel="0" colspan="1" rowspan="1" labelid="{449a3922-7653-412e-8e0d-8fd89293b64f}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crd01_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed89bf1a-015c-42f8-b9f7-f661cfe81e5e}" locklevel="0" colspan="1" rowspan="1" labelid="{07959b2b-57dc-4727-a812-01a452110826}">
+                        <labels>
+                          <label description="Власник" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_locationowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crd01_locationowner" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{699579c4-5d6a-477a-9778-8df991670206}" locklevel="0" colspan="1" rowspan="1" labelid="{43820c5c-02c5-42e5-b44d-93f0b48d2922}">
+                        <labels>
+                          <label description="Кількість осіб (capacity)" languagecode="1033" />
+                        </labels>
+                        <control id="new_capacity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="new_capacity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8002c534-ae7b-4a7b-8fc4-b88e305f738c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Доступно місць зараз" languagecode="1033" />
+                        </labels>
+                        <control id="new_availableplaces" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="new_availableplaces" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05135502-527e-4dba-a638-1b18d8f0e338}" locklevel="0" colspan="1" rowspan="1" labelid="{b7fb50dc-8228-496c-8ff9-86101eff5f5a}">
+                        <labels>
+                          <label description="Adresa" languagecode="1033" />
+                        </labels>
+                        <control id="new_addressline1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_addressline1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{765ffe66-497b-4558-b269-d7ed82ab7eb3}" locklevel="0" colspan="1" rowspan="1" labelid="{9838cdb0-6b35-4d4f-99bf-1c1d7a9343d2}">
+                        <labels>
+                          <label description="PSC" languagecode="1033" />
+                        </labels>
+                        <control id="new_psc" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="new_psc" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{891d00f4-c409-4e86-9e33-479e5c4a0374}" locklevel="0" colspan="1" rowspan="1" labelid="{a3c3f181-11c0-49c5-a5fa-b925537b5718}">
+                        <labels>
+                          <label description="Obec / mesto" languagecode="1033" />
+                        </labels>
+                        <control id="new_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{726550a8-6568-4490-9200-7ba269f6197c}" locklevel="0" colspan="1" rowspan="1" labelid="{b5282f33-e33f-4f3a-808d-88b675e29eeb}">
+                        <labels>
+                          <label description="Kraj" languagecode="1033" />
+                        </labels>
+                        <control id="new_kraj" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_kraj" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{a5ceefa3-8f47-49c5-8b06-60e26784d62b}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{700e4a16-1bed-4d6d-935d-9d62290ed020}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{bf2f19fc-204c-4d32-b907-78159cff1347}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{dadaab14-bd16-489d-a0cc-a93f65a53dcd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Місце розміщення / транспорт quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

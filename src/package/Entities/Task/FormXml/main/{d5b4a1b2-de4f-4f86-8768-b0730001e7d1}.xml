@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_4" id="{61b229e0-729d-513a-1523-89c1cc1b827e}" IsUserDefined="0" locklevel="0" showlabel="false" ordinalvalue="0">
+          <labels>
+            <label description="Поїздки" languagecode="1058" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="tab_4_section_4" showlabel="true" showbar="false" locklevel="0" id="{7e07dc8c-49b7-a67d-5ba9-d2672d1173b2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d5147171-2bdd-dc29-aa3b-947a39bbbd80}" showlabel="false" locklevel="0" availableforphone="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" solutionaction="Added" />
+                          <label description="Стосовно" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%" id="1">
+              <sections>
+                <section name="tab_4_section_2" showlabel="true" showbar="false" locklevel="0" id="{9a91405d-e2db-1857-4495-ea5d78148bdd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{6395043d-8406-b2d5-86be-975bd99ec5d2}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                          <label description="Тема" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c439d01d-3a5d-6c2c-c410-946329983dd3}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Duration" languagecode="1033" solutionaction="Added" />
+                          <label description="Тривалість" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7023c046-0854-6b59-0706-dcebce62988a}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" solutionaction="Added" />
+                          <label description="Стосовно" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_3_section_3" showlabel="true" showbar="false" locklevel="0" id="{13eabb41-7239-6a92-d488-61d63d26d92a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{63d45978-573b-13a7-7c31-095282400150}" showlabel="false" locklevel="0" availableforphone="true" rowspan="3" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="Опис" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{893d8b8c-f4d8-4aad-9c05-17f1a474793b}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{52dc6582-d696-0ea0-cce6-7eb1cc71c688}" showlabel="true" locklevel="0" ordinalvalue="10000">
+              <labels>
+                <label description="Priority" languagecode="1033" solutionaction="Added" />
+                <label description="Пріоритет" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{4b96ccb7-2406-b2c9-01c2-e36eca46dd95}" showlabel="true" locklevel="1" availableforphone="true" ordinalvalue="30002">
+              <labels>
+                <label description="Activity Status" languagecode="1033" solutionaction="Added" />
+                <label description="Стан Поїздки" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{95798e23-a0ee-0352-ae5b-52ab0662bd71}" showlabel="true" locklevel="1" availableforphone="true" ordinalvalue="40003">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Added" />
+                <label description="Відповідальний" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Task for Interactive experience" languagecode="1033" />
+      <LocalizedName description="Поїздки для інтерактивної взаємодії" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default Interactive experience Task form." languagecode="1033" />
+      <Description description="Default Interactive experience Task form." languagecode="1058" />
+    </Descriptions>
+  </systemform>
+</forms>

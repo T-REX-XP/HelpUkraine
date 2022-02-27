@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0d5d542b-d395-ec11-b3fe-6045bd8c19f9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+        <row name="result" id="new_transportid">
+          <cell name="new_candrivefrom" width="188" />
+          <cell name="new_to" width="117" />
+          <cell name="new_transportowner" width="100" />
+          <cell name="new_datefrom" width="187" />
+          <cell name="new_until" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="new_transport">
+          <attribute name="new_transportid" />
+          <attribute name="new_transportowner" />
+          <attribute name="new_candrivefrom" />
+          <attribute name="new_until" />
+          <attribute name="new_datefrom" />
+          <attribute name="new_to" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <filter type="or">
+              <condition attribute="new_until" operator="next-x-days" value="365" />
+              <condition attribute="new_until" operator="today" />
+              <condition attribute="new_until" operator="null" />
+            </filter>
+            <filter type="or">
+              <condition attribute="new_datefrom" operator="today" />
+              <condition attribute="new_datefrom" operator="last-x-days" value="365" />
+              <condition attribute="new_datefrom" operator="null" />
+            </filter>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Транспорт доступний сьогодні" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

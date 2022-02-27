@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22015.128" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>HelpUkraine</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Help Ukraine" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.2</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>Kateryna</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Kateryna" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>kat</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>84174</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="crd01_accomodation" behavior="0" />
+      <RootComponent type="1" schemaName="crd01_location" behavior="0" />
+      <RootComponent type="1" schemaName="new_border" behavior="0" />
+      <RootComponent type="1" schemaName="new_transport" behavior="0" />
+      <RootComponent type="1" schemaName="task" behavior="0" />
+      <RootComponent type="9" schemaName="crd01_bycarorfoot" behavior="0" />
+      <RootComponent type="9" schemaName="crd01_messengers" behavior="0" />
+      <RootComponent type="60" id="{4474fab1-d295-ec11-b3fe-6045bd8c1381}" behavior="0" />
+      <RootComponent type="60" id="{d904bf56-d295-ec11-b3fe-6045bd8c1381}" behavior="0" />
+      <RootComponent type="62" schemaName="new_HelpUkraine" behavior="0" />
+      <RootComponent type="80" schemaName="new_HelpUkraine" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="20" displayName="Office Collaborator" solution="AccessTeam (1.0.7.0)" id="{e8fb3146-7717-ec11-b1b7-000d3af68e17}" />
+        <Dependent type="80" schemaName="new_HelpUkraine" displayName="Help Ukraine" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Люди та організації" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
+          <package>msdynce_AppCommonAnchor (9.0.22015.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Люди та організації" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Поїздка" parentDisplayName="Поїздка" solution="msdynce_Activities (9.0.1.2033)" id="{16654191-19ad-48ca-9e46-c4b4fbdad76f}" />
+        <Dependent type="60" displayName="Поїздка" parentDisplayName="Поїздка" id="{16654191-19ad-48ca-9e46-c4b4fbdad76f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account" parentDisplayName="Люди та організації" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}">
+          <package>msdynce_AppCommonAnchor (9.0.22015.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Люди та організації" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Task quick create form." parentDisplayName="Поїздка" solution="msdynce_Activities (9.0.1.2033)" id="{a1c8a6dc-8804-4019-9c78-7dbe86560ea1}" />
+        <Dependent type="60" displayName="Task quick create form." parentDisplayName="Поїздка" id="{a1c8a6dc-8804-4019-9c78-7dbe86560ea1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account card" parentDisplayName="Люди та організації" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}">
+          <package>msdynce_AppCommonAnchor (9.0.22015.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="account card" parentDisplayName="Люди та організації" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account Quick Create" parentDisplayName="Люди та організації" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}">
+          <package>msdynce_AppCommonAnchor (9.0.22015.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Quick Create" parentDisplayName="Люди та організації" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Task for Interactive experience" parentDisplayName="Поїздка" solution="msdynce_Activities (9.0.1.2033)" id="{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}" />
+        <Dependent type="60" displayName="Task for Interactive experience" parentDisplayName="Поїздка" id="{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Activities/SystemLibraries/Task_main_system_library.js" displayName="Activities/SystemLibraries/Task_main_system_library.js" solution="msdynce_Activities (9.0.1.2033)" />
+        <Dependent type="60" displayName="Task quick create form." parentDisplayName="Поїздка" id="{a1c8a6dc-8804-4019-9c78-7dbe86560ea1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Activities/SystemLibraries/Task_main_system_library.js" displayName="Activities/SystemLibraries/Task_main_system_library.js" solution="msdynce_Activities (9.0.1.2033)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Поїздка" id="{b62ce022-cc0f-4c8c-bb29-21948f70dc74}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Activities/SystemLibraries/Task_main_system_library.js" displayName="Activities/SystemLibraries/Task_main_system_library.js" solution="msdynce_Activities (9.0.1.2033)" />
+        <Dependent type="60" displayName="Task for Interactive experience" parentDisplayName="Поїздка" id="{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.22015.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Люди та організації" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="new_HelpUkraine" displayName="Help Ukraine" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2201.5007)" />
+        <Dependent type="60" displayName="Account" parentDisplayName="Люди та організації" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ca531d9f-ec33-41cd-b73e-8d48d2d62481}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crd01_name" select="1" icon="1" preview="1">
+        <row name="result" id="crd01_locationid">
+          <cell name="new_availableplaces" width="131" />
+          <cell name="new_capacity" width="115" />
+          <cell name="new_kraj" width="201" />
+          <cell name="new_city" width="180" />
+          <cell name="crd01_name" width="299" />
+          <cell name="crd01_locationowner" width="244" />
+          <cell name="new_addressline1" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="crd01_location">
+          <attribute name="crd01_locationid" />
+          <attribute name="crd01_name" />
+          <order attribute="crd01_name" descending="false" />
+          <filter type="and">
+            <condition attribute="new_availableplaces" operator="gt" value="0" />
+          </filter>
+          <attribute name="crd01_locationowner" />
+          <attribute name="new_capacity" />
+          <attribute name="new_availableplaces" />
+          <attribute name="new_city" />
+          <attribute name="new_kraj" />
+          <attribute name="new_addressline1" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Доступне житло" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

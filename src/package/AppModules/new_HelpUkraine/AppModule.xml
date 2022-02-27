@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>new_HelpUkraine</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="new_HelpUkraine" />
+    <AppModuleComponent type="60" id="{d904bf56-d295-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="60" id="{4474fab1-d295-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="1" schemaName="crd01_location" />
+    <AppModuleComponent type="26" id="{160ae0c6-b146-4711-a0c0-212dd47db979}" />
+    <AppModuleComponent type="26" id="{ca531d9f-ec33-41cd-b73e-8d48d2d62481}" />
+    <AppModuleComponent type="1" schemaName="crd01_accomodation" />
+    <AppModuleComponent type="26" id="{55d6e871-7ddd-47f7-b8fc-6d9a9bac603d}" />
+    <AppModuleComponent type="26" id="{cc742ae6-d495-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="26" id="{2fa0eacf-d495-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="26" id="{339cebb7-26b7-4584-8eb5-9b9c22b97621}" />
+    <AppModuleComponent type="26" id="{9c4fb1b3-d495-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="26" id="{5239a293-d495-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="1" schemaName="task" />
+    <AppModuleComponent type="26" id="{6cf285aa-eb20-4277-925a-3e9735411ff0}" />
+    <AppModuleComponent type="26" id="{2b5f5a5d-2d23-4fe7-aa58-e77995368ae7}" />
+    <AppModuleComponent type="1" schemaName="new_border" />
+    <AppModuleComponent type="1" schemaName="new_transport" />
+    <AppModuleComponent type="26" id="{3993f1bc-2da8-4fd4-9840-f86eb9631bbe}" />
+    <AppModuleComponent type="26" id="{612798a9-d795-ec11-b3fe-6045bd8c1381}" />
+    <AppModuleComponent type="26" id="{0d5d542b-d395-ec11-b3fe-6045bd8c19f9}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{e8fb3146-7717-ec11-b1b7-000d3af68e17}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Help Ukraine" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

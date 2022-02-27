@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5825c6f3-d3fe-427e-8d27-89de5687fdb2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c1405ebf-f578-4271-8809-4c7b5ae66bc2}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Загальні" languagecode="1058" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{514a5fdc-aa17-4355-acdf-70f8c1c1f175}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Загальні" languagecode="1058" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dd54f61e-4c46-473d-8f36-7cf01eb9de25}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                      </cell>
+                      <cell locklevel="0" id="{dae57625-933f-48e2-964c-ab8055615708}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="New SG control 1645755103579" languagecode="1033" />
+                          <label description="Поїздки" languagecode="1058" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>task</TargetEntityType>
+                            <RelationshipName>new_Task_transport_new_transport</RelationshipName>
+                            <ViewId>{84F16B6A-E095-EC11-B3FE-6045BD8C19F9}</ViewId>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds>{84F16B6A-E095-EC11-B3FE-6045BD8C19F9},{6CF285AA-EB20-4277-925A-3E9735411FF0},{2B5F5A5D-2D23-4FE7-AA58-E77995368AE7}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2a41c6a-7455-4c2e-a97f-1904a57053d9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Власник" languagecode="1033" />
+                        </labels>
+                        <control id="new_transportowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_transportowner" disabled="false" />
+                      </cell>
+                      <cell id="{73a88b95-9086-443d-9b24-0b6c0cf2957b}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{be9ee870-4283-4925-8218-59a771234d69}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Власник" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1645833904740" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="new_transportowner" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;b028db32-3619-48a5-ac51-cf3f947b0ef3&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{d6afe3b4-2193-44a2-82c2-2f30a727d55c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db07a504-90bc-4733-a3e1-1a360878703d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Кількість місць" languagecode="1033" />
+                        </labels>
+                        <control id="new_seatsnumber" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="new_seatsnumber" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{783bc71e-3757-465b-879a-bcf9e6a50997}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a92163b3-a67b-44ad-aaf9-8c9dbc609c15}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Може возити від" languagecode="1033" />
+                        </labels>
+                        <control id="new_candrivefrom" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_candrivefrom" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{8fe04013-9ecb-4767-842c-0792cc645f04}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71713568-0665-49fc-9a11-64b6573cb649}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="до" languagecode="1033" />
+                        </labels>
+                        <control id="new_to" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_to" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{03e6ce39-adaf-4208-aab6-3b75d62cd703}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af62176b-ed57-40bd-9e7c-f2a6beceede2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="В наступні дати: від" languagecode="1033" />
+                        </labels>
+                        <control id="new_datefrom" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_datefrom" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{c3dd2acb-4880-4574-916c-21b301806924}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d02733db-a84d-499a-8e4d-e5ff678f6213}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="по" languagecode="1033" />
+                        </labels>
+                        <control id="new_until" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_until" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{15dbcc36-8077-43d7-b19b-c04510e6af41}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{774b5e40-9208-4555-8c56-6087fc1564c9}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Komentar" languagecode="1033" />
+                        </labels>
+                        <control id="new_komentar" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="new_komentar" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{d381e6f2-828f-4e71-a670-2b39ffef4c5a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{3cd288c1-fe1c-4430-acbc-59db27949557}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{f4c6f885-9560-4265-94a2-b611d0998e16}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{de149511-061a-4974-9685-9460986f60d1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{917bc3a1-a0b4-4e06-9bc0-29560b07db0a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7ddd31d0-732a-43b4-9db2-412252b9ebf2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{236f7a7e-44a3-4ba1-a32d-f2d6a0850317}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{71436cc2-781c-4f48-91c5-9cbdf6c897d8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d0812c27-75c6-48bc-84a0-b661460fc8a6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4c2c6fd9-5177-44dc-9309-e9f9f24ed044}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{275c27b0-4ccd-40fc-bf6c-23491bab6afb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{facffbc9-d946-465c-8833-d01b3905401b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

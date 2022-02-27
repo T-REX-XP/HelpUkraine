@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{75c1313c-f6bd-4c94-a676-bee4215dd434}</savedqueryid>
+    <queryapi></queryapi>
+    <querytype>131072</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="task">
+          <attribute name="activityid" />
+          <link-entity name="activityparty" from="activityid" to="activityid">
+            <filter type="and">
+              <condition attribute="partyid" operator="eq-userid" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Tasks" languagecode="1033" />
+      <LocalizedName description="Мої Поїздки" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Tasks Synced To Outlook" languagecode="1033" />
+      <Description description="Поїздки, синхронізовані з Outlook" languagecode="1058" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

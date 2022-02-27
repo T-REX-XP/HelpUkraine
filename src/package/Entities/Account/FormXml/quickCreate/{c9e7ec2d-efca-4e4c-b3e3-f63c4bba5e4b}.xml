@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{8ca48364-f790-43e4-b753-aa35fa4f9c77}" name="tab_1" expanded="true" locklevel="0" showlabel="false" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section id="{bcee7abc-6004-49f3-bc27-9eb7d1d3561b}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{1b493db6-167b-6b45-a790-8039e48ba201}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Phone" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74462bc8-31ba-726c-e195-bc30857d41e5}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{f6e659d8-fb82-42c1-a38c-dca62cf705e7}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Електронна пошта" languagecode="1058" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87b9ea37-8f91-40a5-9039-3caf0f7f5011}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Facebook" languagecode="1033" />
+                        </labels>
+                        <control id="new_facebook" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="new_facebook" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01b32ccf-5c70-432a-a53f-975f25f2ffb1}" locklevel="0" colspan="1" rowspan="3" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="Опис" languagecode="1058" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{cf832569-a587-4034-abd9-288783411908}" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section id="{32ff71fb-26e6-4b51-8e93-e94b5780a8ae}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{ebb8e093-c034-a6d1-e4d3-e43923ec1d7d}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{d0c7e234-97a8-473c-39d9-78381c372375}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{4b76aee6-8414-a9d0-3066-78ed2ed42eb8}" showlabel="true" locklevel="0" rowspan="2" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section id="{a549aa16-a731-41b7-9181-86710f8feef5}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{62E808A5-4DB5-4D56-9620-37EBAC8AFF72}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{30B0C670-408A-42B1-B373-607936DE2C8F}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{0794FA63-F298-4831-BD5A-B3F46A91F146}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{C5E57D6C-8A9E-4A0D-89ED-D3F5B59B57AA}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Account Quick Create" languagecode="1033" />
+      <LocalizedName description="" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for Account" languagecode="1033" />
+      <Description description="Форма швидкого створення за замовчуванням для бізнес-партнера" languagecode="1058" />
+    </Descriptions>
+  </systemform>
+</forms>

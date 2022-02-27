@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2bf2f6bf-c816-4081-ba96-89f58c8543b0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{ecfca551-df1e-46f1-85e4-73e3df90d4a4}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f59e6a3d-e727-4364-87e3-cdf720e21d01}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c432c381-42fc-4b4e-abc3-d3c8b059ffe4}" availableforphone="true" visible="false">
+                        <labels>
+                          <label description="Назва" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crd01_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2cf7d451-e326-4ab3-8a45-4cf3c1bdcb3a}" availableforphone="true" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a7227c9-a085-448e-b71c-ca76f97b6c08}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Власник" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_locationowner" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crd01_locationowner" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58f47920-640d-4720-864e-e9b505b8131f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Kraj" languagecode="1033" />
+                        </labels>
+                        <control id="new_kraj" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_kraj" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{379d7158-00df-41b4-96d0-25f433f661a8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Obec / mesto" languagecode="1033" />
+                        </labels>
+                        <control id="new_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b37c4ef-b8de-431a-94a0-fa34bab79102}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Adresa" languagecode="1033" />
+                        </labels>
+                        <control id="new_addressline1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_addressline1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

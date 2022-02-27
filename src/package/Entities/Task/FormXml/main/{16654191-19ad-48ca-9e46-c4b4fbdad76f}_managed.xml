@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{16654191-19ad-48ca-9e46-c4b4fbdad76f}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="TASK_TAB" verticallayout="true" id="{ADFD103B-691E-4A92-B4CF-F844B645A1F7}" IsUserDefined="0" showlabel="false" expanded="true" ordinalvalue="0">
+          <labels>
+            <label description="Поїздки" languagecode="1058" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="67%" id="0">
+              <sections>
+                <section name="TASK" showlabel="false" showbar="false" id="{EBB3C46D-5E9B-4EBB-A9E4-B8C25D364BB3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <labels>
+                    <label description="Поїздки" languagecode="1058" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5FD2BE87-C1CF-41A6-9AD9-4D273733422E}" showlabel="true" locklevel="0" colspan="2" labelid="{f670bd68-6ea9-4665-b504-834f4c254a07}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                          <label description="Тема" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7adf2898-0e7a-4560-8502-f5490455724e}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Від пункту" languagecode="1033" />
+                        </labels>
+                        <control id="new_from" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_from" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4efbab4e-eca0-4b14-bceb-af15f9e51037}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="До пункту" languagecode="1033" />
+                        </labels>
+                        <control id="new_to" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_to" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e3e3fb7-7d45-41ef-af31-517d6c503301}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Транспорт" languagecode="1033" />
+                        </labels>
+                        <control id="new_transport" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_transport" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{831deece-f9db-49df-8281-a01c00b4b2d1}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Кількість осіб" languagecode="1033" />
+                        </labels>
+                        <control id="new_amountofpeople" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="new_amountofpeople" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c3976869-4a96-4d55-8ea6-76ac12ce303b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                          <label description="Початок" languagecode="1058" />
+                        </labels>
+                        <control id="scheduledstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Description" showlabel="true" showbar="false" locklevel="0" id="{bde07399-10a4-ddc1-ae5c-39b7ac6a0d7c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto" labelid="{3e311b53-86ab-4733-ac24-54eba6327ebd}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{34941c93-b671-08a7-5b39-5d4e1443b6e0}" showlabel="false" locklevel="0" auto="true" rowspan="5" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="Опис" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="task details" showlabel="false" showbar="false" locklevel="0" id="{96BF03F6-399F-42D0-8295-08E1B8890D01}" IsUserDefined="0" layout="varwidth" columns="11" labelid="{a75b944b-2152-476c-8a9c-73cfeda7c0fa}" ordinalvalue="2">
+                  <labels>
+                    <label description="Відомості про Поїздки" languagecode="1058" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" id="{E1DB7569-03E5-4B12-A5C0-4E875D1163D8}" locklevel="0" colspan="2" labelid="{1f99d1b9-9de8-4d2f-86f7-0c589f6c24df}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" solutionaction="Added" />
+                          <label description="Стосовно" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" id="{CC840E7F-65AB-4F53-B495-4AEA458370B0}" labelid="{a7a7baec-6af8-4ab9-8952-8f009923ee1d}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Duration" languagecode="1033" solutionaction="Added" />
+                          <label description="Тривалість" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{D7EF0A4A-7B76-4B39-A2E0-4207EC3C8C2D}" columns="1111" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{0A9B5273-AD20-4A08-8990-64CB20861D81}" showlabel="true" ordinalvalue="10000">
+              <labels>
+                <label description="Priority" languagecode="1033" solutionaction="Added" />
+                <label description="Пріоритет" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{6A04844E-9375-4428-BF70-85C6C3556B8B}" ordinalvalue="30002">
+              <labels>
+                <label description="Activity Status" languagecode="1033" solutionaction="Added" />
+                <label description="Стан Поїздки" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{59BF22C1-8C1D-4235-8516-4647EDEAE36C}" showlabel="true" locklevel="1" ordinalvalue="40003">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Added" />
+                <label description="Відповідальний" languagecode="1058" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d444ad75-cee9-450b-9536-e78023c5ad6e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{d3fd44fc-f732-4cce-9fe9-aba0f5c6feee}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{56928cdd-d1a6-4342-bcd9-ab95595ddcd6}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{58a91976-c4b8-4865-a76a-0ce4761e9f2e}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Поїздка" languagecode="1033" />
+      <LocalizedName description="Завдання" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Task form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

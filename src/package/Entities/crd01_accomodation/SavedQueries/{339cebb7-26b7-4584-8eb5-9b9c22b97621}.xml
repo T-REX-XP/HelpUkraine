@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{339cebb7-26b7-4584-8eb5-9b9c22b97621}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="201" />
+          <cell name="scheduledstart" width="220" />
+          <cell name="new_borderid" width="172" />
+          <cell name="crd01_amountofpeople" width="100" />
+          <cell name="crd01_location" width="265" />
+          <cell name="crd01_bycarorfoot" width="100" />
+          <cell name="crd01_phonenumber" width="173" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crd01_accomodation">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <filter type="and">
+            <condition attribute="statecode" operator="not-null" />
+          </filter>
+          <attribute name="crd01_amountofpeople" />
+          <attribute name="crd01_location" />
+          <attribute name="scheduledstart" />
+          <attribute name="new_borderid" />
+          <attribute name="crd01_bycarorfoot" />
+          <attribute name="crd01_phonenumber" />
+          <attribute name="statuscode" />
+          <order attribute="scheduledstart" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Всі заявки" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

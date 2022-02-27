@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4e9ae849-a995-ec11-b3fe-6045bd8c19f9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{ba759c89-02c6-4cc9-80ff-630a3e56fb9d}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{9bebb199-ee04-471c-9ea7-f5a3c54f0f66}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1b93710-2411-4245-9f95-2da81d888c58}" locklevel="0" colspan="1" rowspan="1" labelid="{67f9bfbb-b00b-4321-bba1-d1de794e8cb9}">
+                        <labels>
+                          <label description="ПІБ" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{888d5cd8-2489-4468-89c5-3c044b0b34c0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Прикордонний пункт" languagecode="1033" />
+                        </labels>
+                        <control id="new_borderid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_borderid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c98bafe6-7869-4a47-a8e7-5cef78ab65f7}" locklevel="0" colspan="1" rowspan="1" labelid="{fe05f140-82ae-42d3-bbed-827472356df4}">
+                        <labels>
+                          <label description="Очікувана дата прибуття на кордон" languagecode="1033" />
+                        </labels>
+                        <control id="scheduledstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a65648a-5dbe-4abe-8fc2-49e9783b5f37}" locklevel="0" colspan="1" rowspan="1" labelid="{9e4b6a87-bce9-4e4b-b411-101fe0111342}">
+                        <labels>
+                          <label description="количество людей" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_amountofpeople" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="crd01_amountofpeople" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a61e4894-f31e-4aa5-abe6-107f056b0d4b}" locklevel="0" colspan="1" rowspan="1" labelid="{1677f484-30a3-42b7-9b0c-7e492876b5e7}">
+                        <labels>
+                          <label description="номер телефону" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_phonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crd01_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70d1215a-a5d1-491c-ba3a-d0b8ce0b9ac9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="new_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="new_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a23ed541-df03-48fb-8f4f-a346d4542a42}" locklevel="0" colspan="1" rowspan="1" labelid="{c3a89929-609d-4583-931f-3aee99045dea}">
+                        <labels>
+                          <label description="додатковий контакт" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_additionalcontact" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="crd01_additionalcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20094e7e-526b-4297-8d3e-577ae7089dc8}" locklevel="0" colspan="1" rowspan="1" labelid="{87e97f11-ade0-4a11-a2e4-7b4fb4eb9c2b}">
+                        <labels>
+                          <label description="маю телеграм, viber, whatsapp" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_messengers" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="crd01_messengers" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{667f5bc3-59b6-4ff2-9aab-d0fd4dd6de18}" locklevel="0" colspan="1" rowspan="1" labelid="{402824fa-2e63-45fc-b61d-185bfb6fe8f6}">
+                        <labels>
+                          <label description="прибуваю автівкою / пішо" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_bycarorfoot" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="crd01_bycarorfoot" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83e5998e-b0b0-4eec-9b15-7d97b675b43b}" locklevel="0" colspan="1" rowspan="1" labelid="{cb0c3c24-280a-4246-96ee-2f02ee93badb}">
+                        <labels>
+                          <label description="Деталі Авто" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_cardetails" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crd01_cardetails" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd211e25-0176-472e-8583-9ce1f51b9d5c}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Коментар заявника" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_comment" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="crd01_comment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{79b830c7-0374-46a3-8a60-4d52c05c84f4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52c215e4-5830-43cf-9a67-3c088fe007bf}" locklevel="0" colspan="1" rowspan="1" labelid="{5b15421d-5cba-4277-a792-8eec34cabf1c}">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="crd01_location" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crd01_location" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3982361-d099-4732-b14f-16ff060255a0}" locklevel="0" colspan="1" rowspan="6" labelid="{1b86c2d1-21c9-4a84-8aea-cfdf63e8b721}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{8ca7ded5-c605-4e58-a97b-df12a8815df7}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{9a92e3d7-79a6-480f-be80-92164b1dcecf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{bf7da6b4-b7a2-41c4-823e-ea0da9cc8558}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{6fdd734c-b1d2-477d-b9a9-4dc4560e2a02}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Accomodation quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

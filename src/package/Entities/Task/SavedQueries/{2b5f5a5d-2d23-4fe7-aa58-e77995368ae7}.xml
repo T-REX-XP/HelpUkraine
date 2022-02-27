@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2b5f5a5d-2d23-4fe7-aa58-e77995368ae7}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="statuscode" width="100" />
+          <cell name="new_amountofpeople" width="131" />
+          <cell name="scheduledstart" width="145" />
+          <cell name="new_from" width="133" />
+          <cell name="new_to" width="111" />
+          <cell name="new_transport" width="249" />
+          <cell name="subject" width="250" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="task">
+          <attribute name="subject" />
+          <attribute name="activityid" />
+          <attribute name="new_from" />
+          <attribute name="new_to" />
+          <attribute name="new_amountofpeople" />
+          <attribute name="new_transport" />
+          <attribute name="scheduledstart" />
+          <filter type="and">
+            <condition attribute="scheduledstart" operator="today" />
+          </filter>
+          <attribute name="statuscode" />
+          <order attribute="statuscode" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Всі поїздки сьогодні" languagecode="1033" />
+      <LocalizedName description="Всі поїздки сьогодні" languagecode="1058" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

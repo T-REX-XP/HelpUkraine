@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ca62d74b-9b01-4fc2-836e-37fad18397f9}</savedqueryid>
+    <queryapi></queryapi>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="task">
+          <attribute name="activityid" />
+          <filter type="and">
+            <condition attribute="modifiedon" operator="last-x-days" value="180" />
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid" alias="aa">
+            <filter type="and">
+              <condition attribute="participationtypemask" operator="in">
+                <value>9</value>
+                <value>8</value>
+              </condition>
+              <condition attribute="partyid" operator="eq-userid" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Recent Tasks in which I am a Participant" languagecode="1033" />
+      <LocalizedName description="Останні Поїздки, в яких я беру участь" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Recently changed tasks where I am a participant" languagecode="1033" />
+      <Description description="Нещодавно змінені Поїздки, в яких я беру участь" languagecode="1058" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

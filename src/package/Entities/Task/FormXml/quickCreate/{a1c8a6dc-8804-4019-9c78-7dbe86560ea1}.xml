@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a1c8a6dc-8804-4019-9c78-7dbe86560ea1}</formid>
+    <IntroducedVersion>9.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" hasmargin="false">
+      <tabs>
+        <tab name="createtask" verticallayout="true" id="{C0134778-AB51-40B0-BE85-CD3F1163DC66}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="false" ordinalvalue="0">
+          <labels>
+            <label description="Створити Поїздки" languagecode="1058" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="task" showlabel="false" showbar="false" locklevel="0" id="{9F244862-47BB-4FD7-8740-FFABA14E607A}" IsUserDefined="0" layout="varheight" labelwidth="115" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{f3d6698a-924b-45ca-8304-ae0247b3c3f9}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Відповідальний" languagecode="1058" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Task quick create form." languagecode="1033" />
+      <LocalizedName description="Форма швидкого створення Поїздки." languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Task quick create form." languagecode="1033" />
+      <Description description="Task quick create form." languagecode="1058" />
+    </Descriptions>
+  </systemform>
+</forms>

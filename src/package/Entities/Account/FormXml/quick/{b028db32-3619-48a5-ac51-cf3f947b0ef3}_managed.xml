@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b028db32-3619-48a5-ac51-cf3f947b0ef3}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form hasmargin="false" shownavigationbar="false">
+      <tabs showlabels="false">
+        <tab name="general" verticallayout="true" id="{dc4254d3-733f-4c33-ae1a-0993c9b547e3}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="information" labelwidth="90" id="{bab598b4-2ec6-4224-ac89-007cd686eda4}" IsUserDefined="0" showlabel="true" showbar="false" ordinalvalue="0">
+                  <labels>
+                    <label description="Інформація об особі" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{112ae802-2d92-4cac-82bb-0505194e1238}" showlabel="false" locklevel="0" visible="false" ordinalvalue="10000" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{a9378530-4bf2-40fe-84ee-1d1244fd92f4}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{ff44fde3-113e-4d69-beb5-b910d2b867b9}" showlabel="true" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{e4c51b9f-ae1c-41ae-8599-17b69f81b764}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Facebook" languagecode="1033" />
+                        </labels>
+                        <control id="new_facebook" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="new_facebook" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b7537e3-c68d-4773-8f80-76ac7c4f0fbf}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Other Phone" languagecode="1033" />
+                          <label description="Інший телефон" languagecode="1058" />
+                        </labels>
+                        <control id="telephone2" classid="{8C10015A-B339-4982-9474-A95FE05631A5}" datafieldname="telephone2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="account card" languagecode="1033" />
+      <LocalizedName description="картка бізнес-партнера" languagecode="1058" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form that displays the account card." languagecode="1033" />
+      <Description description="Форма, у якій відображається картка бізнес-партнера." languagecode="1058" />
+    </Descriptions>
+  </systemform>
+</forms>
